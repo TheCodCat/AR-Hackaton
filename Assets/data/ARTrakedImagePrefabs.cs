@@ -9,10 +9,10 @@ public class ARTrakedImagePrefabs : MonoBehaviour
 {
     [SerializeField] private ARTrackedImageManager imageManager;
     [SerializeField] private List<LevelsDTo> LevelsDto;
-    [SerializeField] private GameObject levelItem;
-    [SerializeField] private Transform PosePrefab;
     [SerializeField] private TMP_Text TMP_TextPrefab;
-
+    private GameObject levelItem;
+    private Transform PosePrefab;
+    private ARTrackedImage currentImage;
     private void OnEnable()
     {
         imageManager.trackedImagesChanged += TestChangeImages;
@@ -31,6 +31,7 @@ public class ARTrakedImagePrefabs : MonoBehaviour
 
     private void AddImage(ARTrackedImage aRTrackedImage)
     {
+        currentImage = aRTrackedImage;
         TMP_TextPrefab.text = $"{aRTrackedImage.gameObject.transform.position} {aRTrackedImage.referenceImage.name}";
         Debug.Log("Нашли картинку");
         levelItem = LevelsDto.FirstOrDefault(x => x.Key == aRTrackedImage.referenceImage.name).LevelItem;
@@ -41,13 +42,9 @@ public class ARTrakedImagePrefabs : MonoBehaviour
     private void UpdateImage(ARTrackedImage aRTrackedImage)
     {
         if (aRTrackedImage == null) return;
+
         PosePrefab = (aRTrackedImage.gameObject.transform);
 
-        if(levelItem == null)
-        {
-            AddImage(aRTrackedImage);
-        }
-        else
-            levelItem.transform.SetPositionAndRotation(PosePrefab.position, PosePrefab.rotation);
+        levelItem.transform.SetPositionAndRotation(PosePrefab.position, PosePrefab.rotation);
     }
 }

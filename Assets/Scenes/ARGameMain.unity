@@ -271,6 +271,37 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &261185632
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 261185633}
+  m_Layer: 0
+  m_Name: '[ButtonManager]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &261185633
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 261185632}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &266530800
 GameObject:
   m_ObjectHideFlags: 0
@@ -426,8 +457,6 @@ MonoBehaviour:
   - Key: Wolf
     LevelItem: {fileID: 8321319012995635729, guid: 7018f3b0592f2fe40ba12dae5181fe94,
       type: 3}
-  levelItem: {fileID: 0}
-  PosePrefab: {fileID: 0}
   TMP_TextPrefab: {fileID: 336483239}
 --- !u!1 &332843821
 GameObject:
@@ -488,9 +517,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: dddddd
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 0d0892d1e9acf2c4982d0dd827d3a7ac, type: 2}
-  m_sharedMaterial: {fileID: -8849247749908548197, guid: 0d0892d1e9acf2c4982d0dd827d3a7ac,
-    type: 2}
+  m_fontAsset: {fileID: 0}
+  m_sharedMaterial: {fileID: 0}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -598,7 +626,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.00012207031, y: 0.00012207031}
+  m_AnchoredPosition: {x: -0.00012207031, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &336483239
@@ -1262,9 +1290,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: dasdasda
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 0d0892d1e9acf2c4982d0dd827d3a7ac, type: 2}
-  m_sharedMaterial: {fileID: -8849247749908548197, guid: 0d0892d1e9acf2c4982d0dd827d3a7ac,
-    type: 2}
+  m_fontAsset: {fileID: 0}
+  m_sharedMaterial: {fileID: 0}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2008,9 +2035,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: asdasd
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 0d0892d1e9acf2c4982d0dd827d3a7ac, type: 2}
-  m_sharedMaterial: {fileID: -8849247749908548197, guid: 0d0892d1e9acf2c4982d0dd827d3a7ac,
-    type: 2}
+  m_fontAsset: {fileID: 0}
+  m_sharedMaterial: {fileID: 0}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2244,3 +2270,4 @@ SceneRoots:
   - {fileID: 1439075992}
   - {fileID: 74595465}
   - {fileID: 1756446471}
+  - {fileID: 261185633}
