@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cc84bb7eba1dae4da4e1e0a43b26767, type: 3}
+  m_Name: Cat
+  m_EditorClassIdentifier: 
+  RussianText: --
+  EnglishText: Cat
+  AudioTranslate: {fileID: 8300000, guid: e0d409b0e04c2474f8db23a8ee4de445, type: 3}
+  Variables:
+  - Description: "\u041A\u043E\u0442"
+    GoodResult: 1
+  - Description: "\u041A\u0443\u0440\u0438\u0446\u0430"
+    GoodResult: 0
+  - Description: "\u0411\u0430\u0431\u043E\u0447\u043A\u0430"
+    GoodResult: 0

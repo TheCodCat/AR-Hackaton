@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5718045299443888734
+  m_GuidHigh: 174617878604434827
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5633859634463996648
+      m_GuidHigh: 1591440962891092913
+    m_SerializedTextureGuid:
+      m_GuidLow: 5364929587301812039
+      m_GuidHigh: 960664818793299225
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Apple
+    m_Texture: {fileID: 2800000, guid: f81b87470f084a7419bd631890f7540d, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5681333599613865680
+      m_GuidHigh: 6219938856838858631
+    m_SerializedTextureGuid:
+      m_GuidLow: 3248369935249220243
+      m_GuidHigh: 12112391950323938536
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Bird
+    m_Texture: {fileID: 2800000, guid: d996a293873e2d14e8f45bfb4ddc17a8, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5701807786191893437
+      m_GuidHigh: 3949207599719165088
+    m_SerializedTextureGuid:
+      m_GuidLow: 13282444880578015933
+      m_GuidHigh: 5868717740615231130
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Fox
+    m_Texture: {fileID: 2800000, guid: d78ef2bdb93eb8549a6667f8b0df7151, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5630114218854622784
+      m_GuidHigh: 15502409558075807368
+    m_SerializedTextureGuid:
+      m_GuidLow: 18078757708600306874
+      m_GuidHigh: 4308711498304671369
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Orange
+    m_Texture: {fileID: 2800000, guid: c179ecbaa659fae4894e1778479ecb3b, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5358183840159044621
+      m_GuidHigh: 10776854243590849462
+    m_SerializedTextureGuid:
+      m_GuidLow: 9058004662164651863
+      m_GuidHigh: 17536752777447111272
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Sun
+    m_Texture: {fileID: 2800000, guid: b627ff577f3f7db4687a94c5bc0f5ff3, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5610272335862175269
+      m_GuidHigh: 2446354982344601497
+    m_SerializedTextureGuid:
+      m_GuidLow: 13327556767573617285
+      m_GuidHigh: 6112571073741203482
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Tree
+    m_Texture: {fileID: 2800000, guid: 87142a85fe44b8f41a28ac7a0137d454, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5083965473728022521
+      m_GuidHigh: 10905264731800547226
+    m_SerializedTextureGuid:
+      m_GuidLow: 8918282429766854590
+      m_GuidHigh: 7190243474341076088
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Wardrobe
+    m_Texture: {fileID: 2800000, guid: 68dc67be1a9e7bc4789cab2858e0c863, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5372743140369164675
+      m_GuidHigh: 9492334590398901652
+    m_SerializedTextureGuid:
+      m_GuidLow: 4473304096712122201
+      m_GuidHigh: 4094490958751815786
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Pig
+    m_Texture: {fileID: 2800000, guid: 18d35f595e603e146a58735cd58dd238, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5038349471934160788
+      m_GuidHigh: 10434387707160202369
+    m_SerializedTextureGuid:
+      m_GuidLow: 5864958056143389548
+      m_GuidHigh: 6456176942743276664
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Bear
+    m_Texture: {fileID: 2800000, guid: 36fe036c8447516478cc471fb9f29859, type: 3}
