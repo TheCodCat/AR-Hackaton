@@ -43,13 +43,7 @@ public class ARTrakedImagePrefabs : MonoBehaviour
         if (aRTrackedImage == null) return;
         PosePrefab = (aRTrackedImage.gameObject.transform);
 
-        if (aRTrackedImage.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.Limited ||
-            aRTrackedImage.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.None)
-        {
-            KnowledgeTesting.Instance.VariantPanel.SetActive(false);
-            Destroy(levelItem.gameObject);
-        }
-        else if(levelItem == null)
+        if(levelItem == null)
         {
             AddImage(aRTrackedImage);
         }
