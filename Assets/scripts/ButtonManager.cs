@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class ButtonManager : MonoBehaviour
 {
+    [SerializeField] private float animationDuraction;
     public void ChangeScene(string name)
     {
         StartCoroutine(Loader(name));
