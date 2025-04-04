@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RussianText: --
   EnglishText: Apple
-  AudioTranslate: {fileID: 8300000, guid: 3acf55b923314cb4b8fdc0996661c6ce, type: 3}
+  AudioTranslate: {fileID: 8300000, guid: f1290b6f92175fc49bc32bc0cec2bf4d, type: 3}
   Variables:
   - Description: "\u0410\u043F\u0435\u043B\u044C\u0441\u0438\u043D"
     GoodResult: 0
